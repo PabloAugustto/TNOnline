@@ -1,0 +1,8 @@
+<svg id="menu" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="menu-2" data-name="menu">
+    <rect id="Retângulo_1" data-name="Retângulo 1" width="30" height="30" transform="translate(30 30) rotate(180)" fill="#fff" opacity="0"/>
+    <rect id="Retângulo_2" data-name="Retângulo 2" width="22" height="2" transform="translate(3 14)" fill="#fff"/>
+    <rect id="Retângulo_3" data-name="Retângulo 3" width="22" height="2" transform="translate(3 20)" fill="#fff"/>
+    <rect id="Retângulo_4" data-name="Retângulo 4" width="22" height="2" transform="translate(3 8)" fill="#fff"/>
+  </g>
+</svg>

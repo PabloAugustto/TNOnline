@@ -1,6 +1,6 @@
 
 .bg-total{
-  background-color: #f24b4b;
+  background-color: #e61f22;
   height:35px;
   
 }
@@ -16,6 +16,15 @@
 
 }
 
+.tno-header nav ul::after {
+  content: '';
+    width: 80px;
+    height: 35px;
+     background: linear-gradient(to right,rgba(230, 31, 34, 0), #e61f22  100%);
+    position: sticky;
+    top: 8px;
+    right: -16px;
+   }
 
 
   
@@ -30,10 +39,11 @@
   
 }
 
+
+
+
+
 .tno-header > .wrapper{
-  
-  padding-right:20px;
- 
   margin:0 auto;
   display:flex;
   align-items: center;
@@ -74,7 +84,7 @@ color: #e61f22;
     }
 
 .tno-header  .nav-container {
-  background: #f24b4b;
+  background: #e61f22;
      display:flex;
      align-items: center;
      justify-content: space-between;
@@ -110,6 +120,7 @@ color: #e61f22;
       white-space: nowrap;
       text-transform: uppercase;
       font-family: 'Lato', sans-serif;
+      font-weight: 700;
       
     }
 
@@ -133,13 +144,48 @@ color: #e61f22;
       align-items: center;
       justify-content: center;
       vertical-align: middle;
+      color: #333;
+      flex-wrap: wrap;
     }
     
+    .ed-impresso .arrow-up{
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid #000;
+      position: absolute;
+      left: calc(50% - 8px);
+      top: 3px;
+      z-index: 1;
 
-    .ed-impresso img{
-      max-width:45px;
+    }
+
+    .ed-impresso .mini-tooltip{
+      max-width:50px;
+      height: auto;
       margin-right:10px;
     }
+
+    .ed-impresso .mini-tooltip:hover .ed-impresso .med-tooltip {
+     visibility: visible;
+    }
+
+    .ed-impresso .med-tooltip{
+      visibility: hidden;
+      right: -40px;
+    top: 90px;
+    background: #e02525;
+    position: absolute;
+    z-index: 1;
+    right: 100px;
+    border: 5px solid #e61f22;
+    border-radius: 10px;
+    }
+
+    
+
+
+
+
 
    
 
@@ -153,15 +199,15 @@ color: #e61f22;
       align-items: center;
       padding-right: 15px;
     }
-    .nav-container .previsao svg{
+    .nav-container .previsao .previsao-sun{
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-    cursor:pointer;
-      width: 25px;
-      height:20px;
-      color: #fff;
-      padding-right:8px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: auto;
+    height: 25px;
+    color: #fff;
+    padding-right: 10px;
     }
 
     .nav-container .previsao {
@@ -170,7 +216,7 @@ color: #e61f22;
       align-content: center;
       color:#fff;
       width: 500px;
-      margin-left: 260px;;
+      margin-left: 190px;
       cursor:pointer;
       
     }
@@ -199,13 +245,19 @@ color: #e61f22;
 
     .nav-container .previsao .dolar-svg{
       border-left: 1px solid;
-      margin-left: 10px;
+      padding-left: 10px;
+      height: 25px;
+      width: auto;
+      margin-right: 10px;
       
     }
     
     .nav-container .previsao .euro-svg{
       border-left: 1px solid;
-      margin-left: 10px;
+      padding-left: 10px;
+      height: 25px;
+      width: auto;
+      margin-right: 10px;
       
     }
 
@@ -252,6 +304,7 @@ color: #e61f22;
   width: 160px;
   padding-left: 20px;
   cursor:pointer;
+  padding-right: 10px;
  }
 
  .tno-header  .wrapper ul li a{
@@ -261,15 +314,34 @@ color: #e61f22;
   align-items: center;
   font-family: 'Lato', sans-serif;
  }
- .tno-header  .wrapper ul span{
+
+
+ .tno-header  .wrapper ul p{
   font-size:80px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  color:#a9a9a9;
+  /* color:#a9a9a9; */
+  
   margin-left:-10px;
   cursor:pointer;
   margin-top:-10px;
   position:relative;
+
+
+  background-image: linear-gradient(to top, #fff, #bbb);
+  
+  /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+  background-clip: text;
+  -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+
+  /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+  -webkit-text-fill-color: transparent;
+
+  /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+  color: black;
+
+
+  
  }
 
 
@@ -285,12 +357,14 @@ color: #e61f22;
         display:none;
       }
 
-   
+      .nav-container .previsao{
+        margin-right: auto;
+      }
 
  }
 
 
- @media (max-width: 960px){
+ @media (max-width: 720px){
   
   .tno-header .wrapper {
     display: flex;
@@ -360,6 +434,12 @@ width:100%;
  .nav-container .previsao{
   display:none;
  }
+
+ .tno-header .wrapper .logo-bg {
+  margin-left:-80px;
+ }
+
+ 
 
 
 

@@ -52,7 +52,8 @@
 
 
 .menu-aside {
-  visibility: hidden;
+  display:none;
+
   width: 350px;
   background: #fff;
   position: fixed;
@@ -338,7 +339,7 @@ div.ed-impresso:hover span img {
 }
 
 .ed-impresso .med-tooltip {
-  visibility: hidden;
+  visibility:hidden;
   right: -40px;
   top: 90px;
   background: #e02525;

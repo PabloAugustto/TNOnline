@@ -19,7 +19,7 @@ background-color: #222;
 
   
 }
-.tno-footer h3{
+.tno-footer h2{
   font-family: 'Lato-bold', sans-serif;
   margin-bottom: 20px;
   color:#fff;
@@ -63,7 +63,7 @@ align-items:start;
 
   
 }
-.ul-footer ul li H3{
+.ul-footer ul li H2{
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   color:#fff;
@@ -109,7 +109,7 @@ margin-top: 80px;
 
 @media (max-width: 960px){
   
-    .tno-footer .wrapper h3{
+    .tno-footer .wrapper h2{
 
       display: none;
   }

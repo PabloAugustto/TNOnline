@@ -1,4 +1,3 @@
-
 .bg-total {
   background-color: #e61f22;
   height: 35px;
@@ -84,10 +83,10 @@
   cursor: pointer;
 }
 
-.menu-aside .menu-social svg {
+.menu-aside .menu-social img {
   width: 100%;
-  height: 20px;
-  margin-top: 20px;
+  height: 30px;
+  margin-top: 30px;
   margin-bottom: 20px;
 
   color: #e61f22;
@@ -107,18 +106,20 @@
 }
 
 
+.menu-header .contato-menu span {
+  
+  vertical-align: middle;
+  
+}
 
-
-.menu-header .contato-menu a svg {
-
-  width: 20px;
+.menu-header .contato-menu a img {
+  width: 25px;
   color: #e61f22;
   gap: 10px;
-
-
-
-
-
+  margin-left: 22px;
+  font-size: 22px;;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .menu-header .contato-menu .contato-menu-whats {
@@ -161,7 +162,7 @@
 
 }
 
-.menu-header .sac-menu a svg {
+.menu-header .sac-menu a img {
   width: 20px;
 
 
@@ -180,6 +181,7 @@
 
 .menu-header .contato-menu .ul-cat {
   border-top: 1px solid #a9a9a9;
+  margin-top: 20px;
 
 }
 
@@ -367,7 +369,7 @@ div.ed-impresso:hover span img {
   padding-right: 15px;
 }
 
-.nav-container .previsao .previsao-sun {
+.nav-container .nav-wrapper .previsao .previsao-sun{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -416,7 +418,7 @@ div.ed-impresso:hover span img {
 
 }
 
-.nav-container .previsao .dolar-svg {
+.nav-container .previsao .dolar-img {
   border-left: 1px solid;
   padding-left: 10px;
   height: 25px;
@@ -425,7 +427,7 @@ div.ed-impresso:hover span img {
 
 }
 
-.nav-container .previsao .euro-svg {
+.nav-container .previsao .euro-img {
   border-left: 1px solid;
   padding-left: 10px;
   height: 25px;
@@ -631,8 +633,9 @@ div .menu-responsivo {
   }
 
   .tno-header .wrapper input {
-    display: nne;
-  }
+    position: relative;
+    width: 60px;
+   }
 
   .tno-header .wrapper a img {
     display: flex !important;
@@ -673,7 +676,14 @@ div .menu-responsivo {
     position: relative;
     top: 615px;
   }
-
+     .menu-header .whatsnumber {
+    position: relative;
+    top: 560px;
+    left: 90px;
+  }
+  .menu-header .contato-menu a img{
+    margin-right:10px;
+  }
   .menu-header .sac-menu {
     display: none;
   }

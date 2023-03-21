@@ -2,5 +2,5 @@ function Abrirnav() {
   document.getElementById('menu-aside').style.visibility = 'visible';
 }
 function Fecharnav() {
-  document.getElementById('menu-aside').style.visibility = 'hidden';
+  document.getElementById('menu-aside').style.display = 'none';
 }

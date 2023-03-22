@@ -1,3 +1,11 @@
+main {display: grid;
+grid-template-columns: repeat(3,1fr);
+column-gap: 40px;
+max-width: 1170px;
+margin: 0 auto;}
+
+
+
 .tno-header .subpage-bg{
   background-color: #e61f22;
   height:52px;
@@ -328,7 +336,8 @@ margin-bottom:30px;
   .apucarana-news .wrapper .content-1 img{
   border-radius: 6px;
   height: auto;
-    width: 42vh;
+  height: 260px;
+  width: 350px;
   
   margin-left: 15px;
   }
@@ -422,7 +431,7 @@ margin-bottom:30px;
     margin-bottom: 10px;
   }
 
-  .apucarana-news .wrapper .aticle.publish{
+  .apucarana-news .wrapper .article-publish{
     display: none;
   }
 

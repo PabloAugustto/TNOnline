@@ -357,7 +357,9 @@ div.ed-impresso:hover span img {
 
 
 
-
+.nav-container .previsao{
+  visibility: visible;
+}
 
 
 .nav-container .previsao b {
@@ -531,6 +533,10 @@ div .menu-responsivo {
 
 
 @media (max-width: 1150px) {
+
+  .nav-container .previsao{
+    display:none;
+  }
   .tno-header .wrapper .container-mais-lidas {
     display: none;
   }

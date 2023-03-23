@@ -29,6 +29,7 @@
 
 
 
+
 .tno-header {
   padding: 0 auto;
   display: flex;
@@ -49,9 +50,15 @@
 
 }
 
+.tno-header .wrapper button img{
+height: 30px;
+width:30px;
+}
 
-
-
+.tno-header .wrapper .img-busca{
+  height: 18px;
+  width:18px;
+}
 
 .menu-aside {
   display:none;
@@ -333,8 +340,8 @@ div .wrapper .check-menu {
 }
 
 .ed-impresso .mini-tooltip {
-  max-width: 50px;
-  height: auto;
+  height: 82px;
+    width: 50px;
   margin-right: 10px;
 }
 
@@ -383,7 +390,11 @@ div.ed-impresso:hover span img {
   color: #fff;
   padding-right: 10px;
 }
-
+.nav-container .previsao .previsao-sun{
+  height:25px;
+  width:25px; 
+  margin-right: 10px;
+}
 .nav-container .previsao {
   display: flex;
   align-items: center;
@@ -426,7 +437,7 @@ div.ed-impresso:hover span img {
   border-left: 1px solid;
   padding-left: 10px;
   height: 25px;
-  width: auto;
+  width: 25px;
   margin-right: 10px;
 
 }
@@ -435,7 +446,7 @@ div.ed-impresso:hover span img {
   border-left: 1px solid;
   padding-left: 10px;
   height: 25px;
-  width: auto;
+  width: 25px;
   margin-right: 10px;
 
 }

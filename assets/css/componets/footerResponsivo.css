@@ -13,11 +13,7 @@ background-color: #222;
   display:flex;
   justify-content: center;
   align-items: center;
-  width: 1170px;
- 
-  
-
-  
+  width: 1170px;  
 }
 .tno-footer h2{
   font-family: 'Lato-bold', sans-serif;
@@ -30,8 +26,6 @@ background-color: #222;
   height: 25px;
   margin-left: 15px;
   margin-bottom: 20px;
-
-
 }
 
 .tno-footer .footer-social a{
@@ -96,17 +90,17 @@ margin-top: 80px;
   margin-top: 10px;
   margin-left:px;
   
-
 }
-
-
 
 .ul-footer .footer-img .span-broken{
   width: 130px;
 
 }
 
-
+.ul-footer .footer-img a img{
+  width: 138.95px;
+  height: 50px;
+}
 @media (max-width: 960px){
   
     .tno-footer .wrapper h2{

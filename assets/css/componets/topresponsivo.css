@@ -529,11 +529,17 @@ div.ed-impresso:hover span img {
 div .menu-responsivo {
   display: none;
 }
+.tno-header .wrapper .logo-bg .logo img{
+  width: 209px;
+  height: 82px;
+}
 
 
 
 @media (max-width: 1150px)
- {
+ {.tno-header .subpage-bg .subpage-wrapper{
+ position: inherit;
+ }
 
   .nav-container .previsao{
     display:none;
@@ -554,6 +560,7 @@ div .menu-responsivo {
   .nav-container .previsao {
     margin-right: auto;
   }
+
 
 
   /* MENU - ASIDE */

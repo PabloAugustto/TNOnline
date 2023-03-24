@@ -47,8 +47,9 @@ vertical-align: middle;
 
 .tno-header .subpage-bg .subpage-wrapper .title-cat{
  font-size: 20px;
- font-family: "lato-bold",sans-serif;
- font-weight: 700;
+ font-family: "lato",sans-serif;
+ font-weight: bold;
+ font-style: normal;
  text-transform: uppercase;
  color: #fff;
 }
@@ -66,8 +67,9 @@ vertical-align: middle;
 
 
 .apucarana-news .wrapper .article-subheader{
-  font-family: "lato-bold",sans-serif;
-  
+  font-family: "lato",sans-serif;
+  font-weight: bold;
+    font-style: normal;
   text-transform: uppercase;
   color: #5b5b5b;
   font-size: 16px;
@@ -76,7 +78,9 @@ vertical-align: middle;
 
 
 .apucarana-news .wrapper .article-header{
-  font-family: "lato-black",sans-serif;
+  font-family: "lato",sans-serif;
+  font-weight: 900;
+  font-style: normal;
   padding-right: 30px;
   color:#333333;
   font-size: 46px;
@@ -99,8 +103,9 @@ vertical-align: middle;
 
 .apucarana-news .wrapper .article-lead{
   font-size: 24px;
-  font-family: "lato-regular",sans-serif;
- 
+  font-family: "lato",sans-serif;
+  font-weight: normal;
+  font-style: normal;
   color:#333333;
   max-width: 867.5px;
   margin-bottom: 20px
@@ -185,12 +190,16 @@ height: 100%;
 }
 .apucarana-news .wrapper span {
   font-size: 14px;
-  font-family: "lato-regular",sans-serif;
+  font-family: "lato",sans-serif;
+  font-weight: normal;
+    font-style: normal;
   color:#5b5b5b;
 }
 
 .apucarana-news .wrapper  strong{
-  font-family: "lato-bold",sans-serif;
+  font-family: "lato",sans-serif;
+  font-weight: bold;
+  font-style: normal;
   color:#5b5b5b !important;
 }
 
@@ -214,8 +223,9 @@ margin-bottom:30px;
   text-decoration: none;
     color: #333;
     font-size: 12px;
-    font-family: "lato-bold",sans-serif;
-    
+    font-family: "lato",sans-serif;
+    font-weight: bold;
+  font-style: normal;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -239,14 +249,17 @@ margin-bottom:30px;
 .apucarana-news .wrapper .anuncie span {
   color:#333333;
   font-style: italic;
-  font-family: "lato-light",sans-serif;
+  font-family: "lato",sans-serif;
+  font-weight: 300;
+    font-style: normal;
   font-size: 16px;
 }
 .apucarana-news .wrapper .anuncie span a{
   text-decoration: none;
   color:#e61f22;
-  font-family: "lato-bold",sans-serif;
-  font-style:normal;
+  font-family: "lato",sans-serif;
+  font-weight: bold;
+  font-style: normal;
   font-size: 16px;
 }
 .apucarana-news .wrapper .article-paragraphs{
@@ -257,8 +270,9 @@ margin-bottom:30px;
 
 .apucarana-news .wrapper .article-paragraphs p{
   line-height: 32px;
-  font-family: "lato-light",sans-serif;
-  
+  font-family: "lato",sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 22px;
  color: #333;
  font-style: normal;
@@ -266,22 +280,25 @@ margin-bottom:30px;
 }
 .apucarana-news .wrapper .article-paragraphs p b{
   font-family: "lato",sans-serif;
-  font-weight: 700;
+  font-weight: bold;
+    font-style: normal;
 }
 .apucarana-news .wrapper .article-paragraphs p  a{
   color:#e61f22;
 }
 .apucarana-news .wrapper .article-paragraphs h2{
   font-size: 32px;
-  font-family: "lato-light",sans-serif;
-  font-weight: 700;
+  font-family: "lato",sans-serif;
+  font-weight: 300;
+  font-style: normal;
   margin-bottom: 30px;
   text-transform: uppercase;}
 
   .apucarana-news .wrapper .categorias-relacionadas {
     text-transform: uppercase;
-    font-family: "lato-bold",sans-serif;
-    font-weight: 700;
+    font-family: "lato",sans-serif;
+    font-weight: bold;
+    font-style: normal;
    color: #a9a9a9 ;
    font-size: 16px;
   
@@ -291,6 +308,7 @@ margin-bottom:30px;
     color: #5b5b5b ;
     font-family: "lato",sans-serif;
     font-weight: 300;
+    font-style: normal;
     border: 1px solid #a9a9a9 ;
 
     padding:5px;
@@ -435,7 +453,9 @@ margin-bottom:30px;
     text-decoration: none;
     color: #333;
     font-size: 16px;
-    font-family: "lato-bold",sans-serif;
+    font-family: "lato",sans-serif;
+    font-weight: bold;
+    font-style: normal;
     display: flex;
     align-items: center;
     justify-content: flex-start;

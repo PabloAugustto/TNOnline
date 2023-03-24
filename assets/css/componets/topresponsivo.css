@@ -1,29 +1,27 @@
 @font-face {
-  font-family: 'Lato-bold';
-  src: url('/fonts/Lato-Bold.woff') format('woff');
+  font-family: 'lato-bold';
+  src: url('../../fonts/Lato-Bold.woff') format('woff');
   font-display: swap;}
   @font-face {
-    font-family: 'Lato-regular';
-    src:
-        url('/fonts/Lato-Regular.woff') format('woff');
+    font-family: 'lato-regular';
+    src:url('../../fonts/Lato-Regular.woff') format('woff');
     font-display: swap;
 }
 @font-face {
-  font-family: 'Lato-light';
-  src:
-      url('/fonts/Lato-Light.woff') format('woff');
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Lato-thin';
-  src:
-      url('/fonts/Lato-Hairline.woff') format('woff');
+  font-family: 'lato-light';
+  src:url('../../fonts/Lato-Light.woff') format('woff');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Lato-black';
-  src: url('/fonts/Lato-Black.woff') format('woff');
+  font-family: 'lato-thin';
+  src:url('../../fonts/Lato-Thin.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'lato-black';
+  src: url('../../fonts/Lato-Black.woff') format('woff');
   font-display: swap;
 }
 

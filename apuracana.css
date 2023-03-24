@@ -48,7 +48,6 @@ vertical-align: middle;
 .tno-header .subpage-bg .subpage-wrapper .title-cat{
  font-size: 20px;
  font-family: "lato-bold",sans-serif;
- font-weight: 700;
  text-transform: uppercase;
  color: #fff;
 }
@@ -67,7 +66,6 @@ vertical-align: middle;
 
 .apucarana-news .wrapper .article-subheader{
   font-family: "lato-bold",sans-serif;
-  
   text-transform: uppercase;
   color: #5b5b5b;
   font-size: 16px;
@@ -257,10 +255,9 @@ margin-bottom:30px;
 
 .apucarana-news .wrapper .article-paragraphs p{
   line-height: 32px;
-  font-family: "lato",sans-serif;
+  font-family: 'lato-light',sans-serif;
   font-weight: 300;
-    font-style: normal;
-  
+  font-style: normal;
   font-size: 22px;
  color: #333;
  font-style: normal;

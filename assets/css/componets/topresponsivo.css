@@ -1,28 +1,24 @@
 @font-face {
   font-family: lato-bold;
-  src: url(/fonts/Lato-Bold.ttf);
+  src: url(../componets/fonts/Lato-Black.ttf);
   font-display: swap
 }
 @font-face {
   font-family: lato-regular;
-  src: url(/fonts/Lato-Regular.ttf);
+  src: url(../componets/fonts/Lato-Regular.ttf);
   font-display: swap
 }
 @font-face {
   font-family: lato-light;
-  src: url(/fonts/Lato-Light.ttf);
+  src: url(../componets/fonts/Lato-Light.ttf);
   font-display: swap
 }
 @font-face {
   font-family: lato-thin;
-  src: url(/fonts/Lato-Thin.ttf);
+  src: url(../componets/fonts/Lato-Thin.ttf);
   font-display: swap
 }
-@font-face {
-  font-family: lato-black;
-  src: url(/fonts/Lato-Black.ttf);
-  font-display: swap
-}
+
 
 .bg-total {
   background-color: #e61f22;

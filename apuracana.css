@@ -12,7 +12,7 @@ margin: 0 auto;}
   height:52px;
 }
 .tno-header .subpage-bg .subpage-wrapper{
-  max-width: 1110px;
+  max-width: 1170px;
   justify-content: center;
   align-items: center;
   margin:0px auto;
@@ -25,8 +25,7 @@ margin: 0 auto;}
   align-content: center;
   align-items: center;
   height: 52px;
-  position: relative;
-  right: 30px;
+  
 }
 
 .tno-header .subpage-bg .subpage-wrapper img {

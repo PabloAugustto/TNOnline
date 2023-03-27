@@ -73,7 +73,7 @@
   align-content: space-between;
   position: relative;
   position: relative;
-    right: 15px;
+    right: 35px;
 
 }
 
@@ -85,6 +85,7 @@ width:30px;
 .tno-header .wrapper .img-busca{
   height: 18px;
   width:18px;
+  margin-right: 10px;
 }
 
 .menu-aside {
@@ -307,7 +308,7 @@ div .wrapper .check-menu {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  margin-left: 30px;
+  margin-left: 10px;
   ;
   color: #fff;
   background-size: 0 auto;
@@ -475,7 +476,7 @@ div.ed-impresso:hover span img {
   height: 25px;
   width: 25px;
   margin-right: 10px;
-
+  
 }
 
 .tno-header .wrapper .container-mais-lidas {
@@ -484,8 +485,8 @@ div.ed-impresso:hover span img {
   align-items: center;
   flex-direction: column;
   border-right: 1px solid #8c8c8c;
-  padding-right: 30px;
-
+  padding-right: 20px;
+  margin-left: 70px;
 }
 
 .tno-header .wrapper .container-mais-lidas span {
@@ -522,7 +523,7 @@ div.ed-impresso:hover span img {
 .tno-header .wrapper ul {
   display: flex;
   align-content: space-between;
-  align-items: start;
+  align-items: center;
 }
 
 .tno-header .wrapper ul li {
@@ -533,7 +534,7 @@ div.ed-impresso:hover span img {
   width: 160px;
   padding-left: 20px;
   cursor: pointer;
-  padding-right: 10px;
+  
   line-height: 1.4;
 }
 
@@ -550,9 +551,9 @@ div.ed-impresso:hover span img {
   font-size: 80px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  margin-left: -10px;
+  
   cursor: pointer;
-  margin-top: -10px;
+ 
   position: relative;
   background-image: linear-gradient(to top, #fff, #bbb);
   background-clip: text;
@@ -570,6 +571,7 @@ div .menu-responsivo {
 .tno-header .wrapper .logo-bg .logo img{
   width: 209px;
   height: 82px;
+  margin-left: 10px;
 }
 
 
@@ -691,7 +693,7 @@ div .menu-responsivo {
 
   .tno-header .wrapper .img-bottom {
     display: flex;
-    margin-right: 10px;
+    margin-right: 15px;
     height: 50px;
     width:20px;
 
@@ -700,7 +702,8 @@ div .menu-responsivo {
 
   .tno-header .wrapper input {
     position: relative;
-    width: 60px;
+    width: 55px;
+    top: -1px;
    }
 
   .tno-header .wrapper a img {
@@ -708,7 +711,7 @@ div .menu-responsivo {
   }
 
   .tno-header nav ul {
-    margin-left: 0px;
+    margin-left: 10px;
 
   }
 

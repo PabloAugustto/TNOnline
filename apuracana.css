@@ -1,4 +1,5 @@
-main {display: grid;
+main {
+display: grid;
 grid-template-columns: repeat(1,1fr);
 column-gap: 40px;
 max-width: 1170px;
@@ -25,7 +26,7 @@ margin: 0 auto;}
   align-items: center;
   height: 52px;
   position: relative;
-  right: 15px;
+  right: 30px;
 }
 
 .tno-header .subpage-bg .subpage-wrapper img {

@@ -284,6 +284,8 @@ div .wrapper .check-menu {
   display: flex;
   margin-left: 80px;
   margin-right: 250px;
+  position: relative;
+  left: 30px;
 }
 
 .tno-header .nav-container {
@@ -640,7 +642,7 @@ div .menu-responsivo {
 @media (max-width: 720px) {
   .tno-header .wrapper .logo {
     display: flex;
-    margin-left: 80px;
+    margin-left: 50px;
     margin-right: 250px;
   }
 

@@ -733,14 +733,15 @@ margin-bottom:30px;
   }
 
   .apucarana-news .wrapper .google-news-mobile{
-    margin-top: 30px;
+    
     border: 1px solid #a9a9a9;
     width: 300px;
     border-radius: 4px;
     padding: 10px;
     vertical-align: middle;
     margin-bottom: 40px;
-    margin-left: 50px;
+    position: relative;
+    margin: 0 auto;
   }
   .apucarana-news .wrapper .google-news-mobile a{
     text-decoration: none;
@@ -780,7 +781,7 @@ margin-bottom:30px;
     
     word-break: break-word;
     font-size: 18px;
-    width: 100%;
+    
     display: inline-block;
     color: #1c1c1c;
     margin-left: 10px;
@@ -838,7 +839,6 @@ margin-bottom:30px;
 .apucarana-news .wrapper .uol-tmtitle h2{
  
   margin-left: 10px;
-  width: 100%;
 }
 
 

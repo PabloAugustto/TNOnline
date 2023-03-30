@@ -987,9 +987,46 @@ margin-bottom:30px;
 .apucarana-news .wrapper .widget-title-content{
   margin-bottom: 40px;
 }
-
-
-
+.apucarana-news .wrapper .carousel-card{
+  width: 100%;
+    padding: 12px 8px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background: #dfdfdf;
+}
+.apucarana-news .wrapper .carousel-card .cards-compact>*{
+  height: 128px;
+    width: 172px;
+    background: white;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.apucarana-news .wrapper .carousel-card li{
+      padding: 12px;
+    background: white;
+}
+.apucarana-news .wrapper .carousel-card .cards-compact li a{
+  text-decoration: none;
+}
+.apucarana-news .wrapper .carousel-card .cards-compact li a img{
+  width: 18px;
+  height: 18px;
+}
+.apucarana-news .wrapper .carousel-card .cards-compact li a i{
+  width: 28px;
+    height: 28px;
+    background: #e61f22;
+    display: inline-block;
+    margin: 0 8px 0 0;
+    padding: 6px;
+    border-radius: 6px;
+    vertical-align: middle;
+}
+.apucarana-news .wrapper .carousel-card .cards-compact li a .card-title{
+  font-size: 16px;
+  font-family: 'lato-black';
+  color: #333;
+}
 }
 
 

@@ -390,7 +390,6 @@ margin-bottom:30px;
   }
   .apucarana-news .wrapper .uol-tmtitle h2{
     border-bottom: 4px solid #a31e24;
-    width: 256px;
     color: #a31e24;
     margin-left: 30px;
     font-family: 'lato-bold', sans-serif;
@@ -398,6 +397,7 @@ margin-bottom:30px;
     margin-top: 10px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    margin: 10px;
   }
   .apucarana-news .wrapper .uol-tmtitle{
     border-bottom: 1px solid #e1e1e1;
@@ -596,6 +596,7 @@ margin-bottom:30px;
 
 
 
+
   @media(max-width: 1150px){
     
     .tno-header .subpage-bg .subpage-wrapper{
@@ -678,9 +679,7 @@ margin-bottom:30px;
   
   }
 
-  .apucarana-news .wrapper span{
-    margin-left: 10px;
-  }
+ 
   .apucarana-news .wrapper .google-news{
     width: 300px;
     margin-left: 52px;
@@ -760,7 +759,7 @@ margin-bottom:30px;
     width:30px;
   }
   .apucarana-news .wrapper .article-who-mobile {
-    margin-left: 0px;
+    margin-left: 10px;
     display: grid;
     margin-bottom: 10px;
   }
@@ -784,7 +783,7 @@ margin-bottom:30px;
     
     display: inline-block;
     color: #1c1c1c;
-    margin-left: 10px;
+    margin: 10px;
   }
   .apucarana-news .wrapper .meus-comentarios span{
     color:#1c1c1c;
@@ -836,10 +835,7 @@ margin-bottom:30px;
   border: none;;
 }
 
-.apucarana-news .wrapper .uol-tmtitle h2{
- 
-  margin-left: 10px;
-}
+
 
 .apucarana-news .wrapper .article-paragraphs p b{
   display:none;
@@ -863,12 +859,14 @@ margin-bottom:30px;
 }
 .apucarana-news .wrapper .aside-mobile div a{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 10px;
   border-bottom: 1px solid #a1a1a1;
   margin: 10px;
   padding: 15px;
-
+}
+.apucarana-news .wrapper .aside-mobile div a:last-child{
+  border: none;
 }
 .apucarana-news .wrapper .aside-mobile h2{
   font-size: 18px;
@@ -881,9 +879,126 @@ margin-bottom:30px;
   font-size: 16px;
     font-family: 'lato-bold';
     color: #1c1c1c;
-    
+    line-height: 1.4;
 }
+.apucarana-news .wrapper .widget-last div{
+  position: relative;
+    height: 200px;
 }
+.apucarana-news .wrapper .widget-last h2{
+  font-size: 18px;
+    width: 300px;
+    display: inline-block;
+    font-family: 'lato-bold', sans-serif;
+    margin: 10px;
+   
+}
+.apucarana-news .wrapper .widget-last a img{
+  width: 100%;
+  max-height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 10px;
+}
+.apucarana-news .wrapper .widget-last .widget-cat{
+  font-size: 12px;
+  position: absolute;
+  left: 35px;
+  bottom: 145px;
+  /* top: 0; */
+  padding: 6px 8px;
+  background: #e61f22;
+  color: #fff;
+  text-transform: uppercase;
+}
+.apucarana-news .wrapper .widget-last button img{
+  position: absolute;
+  width: 25px;
+  right: 25px;
+  bottom: 22px;
+}
+
+.apucarana-news .wrapper .widget-title{
+  
+  font-size: 19px;
+  margin-left: 10px;
+  line-height: 1.4;
+  padding: 8px 12px;
+  font-family: 'lato-bold',sans-serif;
+}
+
+.apucarana-news .wrapper .time-span{
+  font-size: 12px;
+  margin-left: 20px;
+}
+.apucarana-news .wrapper .time-span::after{
+  content: "\2014\00a0";
+    margin-left: 4px;
+}
+.apucarana-news .wrapper .locale{
+  font-size: 12px;
+}
+
+.apucarana-news .wrapper .compact-widget div a .compact-foto{
+  height: 50vh;
+  border-radius: 8px;
+  max-height: 100px;
+  max-width: 140px;
+  margin: 12px;
+}
+.apucarana-news .wrapper .compact-widget div button a img{
+  width: 20px;
+  position: absolute;
+    right: 20px;
+}
+.apucarana-news .wrapper .compact-widget .compact-wrap{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+.apucarana-news .wrapper .compact-widget .compact-wrap div span{
+  font-size: 12px;
+  vertical-align: text-top;
+  font-family: "lato-bold",sans-serif;
+  text-transform: uppercase;
+  color: #e61f22;
+}
+.apucarana-news .wrapper .compact-widget .compact-wrap div h2{
+  font-size: 16px;
+  max-height: 120px;
+  font-family: 'lato-bold';
+  line-height: 1.4;
+  color: #2e2e2e;
+  padding: 0px 40px 0 0;
+}
+.apucarana-news .wrapper .compact-widget .compact-wrap div button{
+  position: absolute;
+  right: 10px;
+}
+.apucarana-news .wrapper .compact-widget .compact-wrap div{
+  margin-top: 15px;
+}
+.apucarana-news .wrapper .compact-widget-margin{
+  margin-top:-30px
+}
+.apucarana-news .wrapper .widget-title-content{
+  margin-bottom: 40px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -891,12 +1006,29 @@ margin-bottom:30px;
 
 
 @media (min-width: 1200px){
-  .apucarana-news .wrapper .google-news-mobile{
-    display: none;}
+    .apucarana-news .wrapper .google-news-mobile{
+    display: none;
+    }
     .apucarana-news .wrapper .article-who-mobile {
       display: none;
     }
     .apucarana-news .wrapper .aside-mobile{
       display: none;
     }
+    .apucarana-news .wrapper .widget-last{
+      display: none;
+    }
+    .apucarana-news .wrapper .locale{
+      display: none;
+    }
+    .apucarana-news .wrapper .widget-title{
+      display: none;
+    }
+    .apucarana-news .wrapper .compact-widget-margin{
+   display: none;
+    }
+    .apucarana-news .wrapper .widget-title-content{
+      display: none;}
+      
+    
   }
